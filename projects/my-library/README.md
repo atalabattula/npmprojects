@@ -5,7 +5,8 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
 ## Get Started
 
 
-1. Run npm install my-library-basic-button.
+1. Run `npm install my-library-basic-button` or `yarn add my-library-basic-button`.
+.
 
 2. Import `MyLibraryModule` in app.module.ts as below:
 
