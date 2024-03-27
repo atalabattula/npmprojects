@@ -2,6 +2,38 @@
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
 
+## Get Started
+
+
+1. Run npm install my-library-basic-button.
+
+2. Import `MyLibraryModule` in app.module.ts as below:
+
+```
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { MyLibraryModule } from 'my-library-basic-button';
+
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    MyLibraryModule,
+    // other imports
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+```
+
+3. Use button tag `<lib-my-button></lib-my-button>` in app.component.html.
+
 ## Code scaffolding
 
 Run `ng generate component component-name --project my-library` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project my-library`.
@@ -22,3 +54,9 @@ Run `ng test my-library` to execute the unit tests via [Karma](https://karma-run
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+Note: It is a basic version of a simple button, currently customization is not enabled, we can use this button for different event handlers but we can't do styling for this button.
+
+
+
+

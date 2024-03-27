@@ -1,6 +1,12 @@
 {
   "name": "my-library-basic-button",
-  "version": "0.0.1",
+  "version": "0.0.9",
+  "private": false,
+  "homepage": "https://github.com/atalabattula/npmprojects",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atalabattula/npmprojects"
+  },
   "peerDependencies": {
     "@angular/common": "^17.3.0",
     "@angular/core": "^17.3.0"
